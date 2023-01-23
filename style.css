@@ -7,7 +7,7 @@ p {
     font-size: 125%;
 }
 
-div#greeting{
+div.greeting{
     background-color:rgba(149, 214, 224, 0.733);
 }
 
