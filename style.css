@@ -1,6 +1,11 @@
 body {
-    background: rgb(138, 165, 255);
+    background: rgb(22, 38, 92);
+    color: white;
+}
 
+div.my-pic img {
+    max-width: 25%;
+    height: auto;
 }
 
 p {
@@ -8,6 +13,6 @@ p {
 }
 
 div.greeting{
-    background-color:rgba(149, 214, 224, 0.733);
+    background-color:rgba(170, 14, 35, 0.733);
 }
 
