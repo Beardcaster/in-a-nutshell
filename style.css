@@ -4,15 +4,50 @@ body {
 }
 
 div.my-pic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 25%;
     height: auto;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
     font-size: 125%;
+    text-align: center;
 }
 
 div.greeting{
     background-color:rgba(170, 14, 35, 0.733);
+}
+
+img#site-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;    
+}
+
+img#puzzle-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;    
+}
+
+div.allignable-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
