@@ -15,5 +15,9 @@ mouseoverHighlight.addEventListener('mouseleave', function(event){
         mouseoverHighlight.style.scale = "100%"}    
 })
 
-
+/*function displayProfileContent(string){
+        const element = document.createElement("p")
+        element.internalHTML(string);
+        document.body.append(element);
+}*/
 
