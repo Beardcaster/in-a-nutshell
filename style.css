@@ -24,12 +24,20 @@ p {
     text-align: center;
 }
 
-img#site-banner {
+img#site-banner{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     height: auto;    
+}
+
+img#chess-banner{
+    padding-top: 50px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img#puzzle-image{
@@ -39,21 +47,19 @@ img#puzzle-image{
     height: auto;    
 }
 
-div.allignable-class {
+div.chess#puzzle-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-input {
-
+input#puzzle-button {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: 10%;
     font-size: 200%;
-
 }
 
 #profile {
