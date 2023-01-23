@@ -3,12 +3,16 @@ body {
     color: white;
 }
 
-div.my-pic img {
+div.profile img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 25%;
     height: auto;
+}
+
+div.profile p{
+    background-color:rgba(170, 14, 35, 0.733);
 }
 
 h2 {
@@ -18,10 +22,6 @@ h2 {
 p {
     font-size: 125%;
     text-align: center;
-}
-
-div.greeting{
-    background-color:rgba(170, 14, 35, 0.733);
 }
 
 img#site-banner {
@@ -54,5 +54,9 @@ input {
     height: 10%;
     font-size: 200%;
 
+}
+
+#profile {
+    float: left;
 }
 
