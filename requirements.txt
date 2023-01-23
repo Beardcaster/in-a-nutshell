@@ -1,0 +1,3 @@
+HTML, JavaScript and CSS should all be incorporated.
+
+chess puzzle/click to expose solution javascript: ...Rg6+ Kh3, Rg4. White must sacrifice their queen or lose the game immediately.
