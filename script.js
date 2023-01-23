@@ -1,7 +1,3 @@
-//const h2 = document.createElement("h2");
-//h2.textContent = "This content added by JavaScript";
-//document.querySelector("body").appendChild(h2);
-
 const inputButton = document.getElementById('puzzle-button');
 const mouseoverHighlight = document.getElementById('profile-pic');
 
@@ -10,9 +6,8 @@ inputButton.addEventListener('click', function() {
 });
 
 mouseoverHighlight.addEventListener('mouseover', function(event){
-    if (event = true) {
-        console.log("ITS HAPPENING");
-        mouseoverHighlight.style.scale = "150%"}        
+    if (event = true) {        
+        mouseoverHighlight.style.scale = "110%"}        
 });
 
 mouseoverHighlight.addEventListener('mouseleave', function(event){
