@@ -3,7 +3,63 @@ body {
     color: white;
 }
 
-div.profile img {
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;    
+}
+
+ul#menu-bar {
+    list-style:none;
+    text-align: center;
+}
+
+ul#menu-bar li {
+    display: inline;
+    list-style: none;   
+}
+
+ul#menu-bar li img{
+    height: 50px;
+    width: 250px;
+}
+
+#visible-image {
+    width: 500px;
+    height: 500px;
+    object-fit:contain;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#visible-image img{
+    display: block;
+    margin: 0 auto;
+    height:500px;
+    width: auto;
+
+}
+
+#visible-text {
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    border: solid 2px white;
+    background-color: rgb(170, 14, 35, 0.733);
+    text-align: center;
+}
+
+#solution {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 250px;
+}
+
+
+/* div.profile img {
     padding-top: 10px;
     display: block;
     max-width: 400px;
@@ -20,14 +76,6 @@ div.profile p{
 p {
     font-size: 125%;
     text-align:center;
-}
-
-img#site-banner{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1080px;
-    height: auto;    
 }
 
 img#chess-banner{
@@ -67,5 +115,16 @@ input#puzzle-button {
     margin: 0 auto;
 }
 
+div#form {
+    
+    width: 250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#form {
+    align-items: center;
+    width: 300px;
+} */
 
 

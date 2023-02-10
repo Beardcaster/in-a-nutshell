@@ -1,33 +1,36 @@
-<!DOCTYPE=html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css" />        
+        <script src="./data.js"></script>
+        <script defer src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css" />
         <title>My Personal Website</title>
     </head>
+    <header>
+        <div class="greeting" id="banner-div">
+            <img src="https://u.cubeupload.com/Beardcaster/sitebanner.png" id="banner">
+        </div>
+        <div class="greeting" id="menu-bar-container">
+            <ul id="menu-bar">
+                <li>
+                    <img id="prof-btn" src="https://cdn.imgchest.com/files/g4z9cwr5p72.png">
+                </li>
+                <li>
+                    <img id="chess-btn" src="https://cdn.imgchest.com/files/w7w6cv5ddye.png">
+                </li>
+            </ul>
+        </div>
+    </header>
     <body>
-        <header>
-            <div class="greeting" id = "bannerDiv">
-                <img src="./images/site-banner.png" id="site-banner" alt="A nifty banner with the site creators name on it" \>  
-            </div>      
-        </header>
-        <section id="profile-content">
-            <div class="profile" id="profile-info">
-                <p>Hello, I'm Jayson. I'm learning to code and develop websites. I follow the Buffalo Bills and the Colorado Avalanche. I enjoy reading, drawing, chess and disc golf in my spare time. I wasn't certain what to write here for now but welcome to my personal website.<br><br>Puzzle solving and technology are right up may alley and im looking forward to learning more about this exciting field</p>
+        <div id="visible-content">
+            <div id="visible-image">
+                <img id="loaded-image">
             </div>
-            <div class="profile">
-                <img id="profile-pic" src="./images/my-face.jpg" alt="Two cool folks enjoying a hockey game. Go Avs!" title="Two cool folks enjoying a hockey game. Go Avs!" />
+            <div id="visible-text">
+
             </div>
-        </section>   
-        <section id="chess-content">
-            <div class="chess">
-                <img class="chess" id="chess-banner" src="./images/chess-banner.png" />
-                <div class="chess" id="weekly-puzzle">
-                    <p>Puzzle of the Week (and maybe longer)</p>
-                    <img id="puzzle-image" src="./images/chess-puzzle.PNG" alt="A chess puzzle">
-                    <input id="puzzle-button" type="button" value="click to reveal solution">
-                </div>            
+            <div id="solution-btn">
+
             </div>
-        </section>
-        <script src="script.js"></script>
+        </div>        
     </body>
 </html>
