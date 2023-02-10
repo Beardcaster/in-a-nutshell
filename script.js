@@ -20,10 +20,9 @@ chessButton.addEventListener('mouseleave', e => {
     chessButton.src = chessData.standImg
 })
 
+renderProfileContent();
 profButton.addEventListener('click', renderProfileContent);
 chessButton.addEventListener('click', renderChessContent);
-
-
 
 function renderProfileContent () {
 
