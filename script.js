@@ -5,18 +5,14 @@ const chessButton = document.getElementById("chess-btn");
 const solutionBtn = document.getElementById("solution-btn");
 
 profButton.addEventListener('mouseover', e => {
-    profButton.src = profileData.hltImg;
-})
+    profButton.src = profileData.hltImg;})
 profButton.addEventListener('mouseleave', e => {
-    profButton.src = profileData.standImg;
-})
+    profButton.src = profileData.standImg;})
 
 chessButton.addEventListener('mouseover', e => {
-    chessButton.src = chessData.hltImg;
-})
+    chessButton.src = chessData.hltImg;})
 chessButton.addEventListener('mouseleave', e => {
-    chessButton.src = chessData.standImg;
-})
+    chessButton.src = chessData.standImg;})
 
 renderProfileContent();
 profButton.addEventListener('click', renderProfileContent);
@@ -38,9 +34,7 @@ function renderProfileContent () {
     loadedImage.innerHTML = "";
     const img = document.createElement("img");
     img.src = profileData.profileImg;
-    loadedImage.appendChild(img)  ;
-
-}
+    loadedImage.appendChild(img);}
 
 function renderChessContent () {    
 
@@ -73,8 +67,6 @@ function renderChessContent () {
     btn.addEventListener("click", e => {
         btn.style.scale = "80%";
         setTimeout(() => btn.style.scale = "100%", 50);
-        alert(chessData.chessPuzzleSolution)
-    })
-}
+        alert(chessData.chessPuzzleSolution)})}
     
 
