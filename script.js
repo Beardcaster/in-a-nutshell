@@ -1,13 +1,12 @@
 const loadedText = document.getElementById("visible-text");
-const loadedImage = document.getElementById("visible-image")
+const loadedImage = document.getElementById("visible-image");
 const profButton = document.getElementById("prof-btn");
 const chessButton = document.getElementById("chess-btn");
-const solutionBtn = document.getElementById("solution-btn")
+const solutionBtn = document.getElementById("solution-btn");
 
 profButton.addEventListener('mouseover', e => {
     profButton.src = profileData.hltImg;
 })
-
 profButton.addEventListener('mouseleave', e => {
     profButton.src = profileData.standImg;
 })
@@ -15,9 +14,8 @@ profButton.addEventListener('mouseleave', e => {
 chessButton.addEventListener('mouseover', e => {
     chessButton.src = chessData.hltImg;
 })
-
 chessButton.addEventListener('mouseleave', e => {
-    chessButton.src = chessData.standImg
+    chessButton.src = chessData.standImg;
 })
 
 renderProfileContent();
@@ -26,28 +24,28 @@ chessButton.addEventListener('click', renderChessContent);
 
 function renderProfileContent () {
 
-    profButton.style.scale = "80%"
-    setTimeout(() => profButton.style.scale = "100%", 50)
+    profButton.style.scale = "80%";
+    setTimeout(() => profButton.style.scale = "100%", 50);
 
     loadedText.innerHTML = "";
     loadedImage.innerHTML = "";
     solutionBtn.innerHTML = "";
 
-    const p = document.createElement('p')
+    const p = document.createElement('p');
     p.innerText = profileData.profileText;
     loadedText.appendChild(p);
 
     loadedImage.innerHTML = "";
-    const img = document.createElement("img")
+    const img = document.createElement("img");
     img.src = profileData.profileImg;
-    loadedImage.appendChild(img)  
+    loadedImage.appendChild(img)  ;
 
 }
 
 function renderChessContent () {    
 
-    chessButton.style.scale = "80%"
-    setTimeout(() => chessButton.style.scale = "100%", 50) 
+    chessButton.style.scale = "80%";
+    setTimeout(() => chessButton.style.scale = "100%", 50);
 
     loadedText.innerHTML = "";
     loadedImage.textContent = "";
@@ -59,12 +57,24 @@ function renderChessContent () {
 
     const img = document.createElement("img")
     img.src = chessData.chessPuzzleImg;
-    loadedImage.appendChild(img)
+    loadedImage.appendChild(img);
     
     const btn = document.createElement("img")
-    btn.src = chessData.solutionBtnImg
-    btn.setAttribute("id","solution")
+    btn.src = chessData.solutionBtnImg;
+    btn.setAttribute("id","solution");
     solutionBtn.appendChild(btn);
+
+    btn.addEventListener("mouseover", e => {
+        btn.src = chessData.solutionHltImg;});
+
+    btn.addEventListener("mouseleave", e => {
+        btn.src = chessData.solutionBtnImg;});
+
+    btn.addEventListener("click", e => {
+        btn.style.scale = "80%";
+        setTimeout(() => btn.style.scale = "100%", 50);
+        alert(chessData.chessPuzzleSolution)
+    })
 }
     
 

@@ -10,7 +10,7 @@ const chessData = {
     hltImg: "https://cdn.imgchest.com/files/k739c6wvq7q.png",
     chessText: "Puzzle of the week (and likely longer)",
     chessPuzzleImg: "https://cdn.imgchest.com/files/g4z9cwrpp72.PNG",
-    chessPuzzleSolution: "1...Qg1+, 2. Qf1 Qxf1+, 3. Nd1 Qxd1#",
+    chessPuzzleSolution: "1...Qg1+, 2. Qf1 Qxf1+, 3. Nd1 Qxd1# || Puzzle from chess.com",
     solutionBtnImg: "https://cdn.imgchest.com/files/my8xckmda4l.png",
-    solutionHltImg: "https://imgchest.com/p/vj4jvwke48m#gallery-1"
+    solutionHltImg: "https://cdn.imgchest.com/files/e4gdcpeza4r.png"
 }

@@ -46,7 +46,7 @@ ul#menu-bar li img{
     margin: 0 auto;
     width: 500px;
     height: auto;
-    border: solid 2px rgba(255, 255, 255, 0);
+    border: solid 2px white;
     background-color: rgb(170, 14, 35, 0.733);
     text-align: center;
 }
